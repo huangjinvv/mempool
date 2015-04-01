@@ -17,3 +17,7 @@ type Block struct {
 type Page struct {
 	size int32
 }
+
+func NewMemPool() *MemPool {
+	return &MemPool{}
+}
